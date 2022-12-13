@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+    box-sizing: border-box;
+    
+  
+
+}
+
+
+body{ 
+    position: relative;
+    background: #BBD2C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #292E49, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+   
+}
+
+
+.glass {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 350px;
+    height: 480px; 
+
+    background-color: rgba(255,255, 255, .05);
+    padding: 10px;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    z-index: 100;
+
+    font-size: smaller;
+    text-align: center;
+    /* card */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -10px;
+ 
+  
+ 
+
+
+    
+
+
+}
+img{
+    position: relative;
+    /* justify-content: center; */
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+    border: 25px solid rgb(47, 47, 48);
+    border-width: 5px;
+    /* margin-left: 45px; */
+    margin-top: 25px;
+    
+}
+
+.wel {
+ 
+    position: relative;
+    font-family: 'ink free';
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -60px;
+
+    z-index: 100;
+    padding: 10px;
+
+
+
+   
+    
+
+}
+
+h2{
+    
+    font-size: 25px;
+    font-weight: 600;
+    margin-top:20px ;
+    font-family: 'Lucida Handwriting';
+    /* text-transform: uppercase;  */
+}
+
+p{
+   text-transform: uppercase;
+    font-size: 25px;
+    /* margin: 10px auto; */
+    margin-top: 20px;
+
+
+}
+
+
+
+.shapes1{ 
+    position: absolute;
+    left: 250px;
+    bottom: -25px;
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(to right, #536976, #c22c45d8 );
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+}
+.shapes2{ 
+ 
+    position: absolute;
+    top: -50px;
+    right: 200px;
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(to right, #d12e49d5, #292E49);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+}
+
+.cantaner {
+    position: relative;
+    font-size: 35px;
+    margin-top: 70px;
+    cursor: pointer;
+    letter-spacing: 15px;
+    transition:  ease 1s ;
+  
+}
+.cantaner :hover {
+    
+    position:relative;
+    border-radius: 10px;
+    padding: 5px 5px;
+    background: #494749 ;
+    width: 35px;
+    box-shadow:  -05px 05px;
+
+   
+}
+.a {
+    position: absolute;
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+
+.a::after{
+
+    content: "";
+    position: absolute;
+    left: 50px;
+    bottom: -10px;
+    width: 50px  ;
+    border-bottom: 5px solid #2c3e50;
+
+}
+.a nav::before{
+        
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 10px;
+    right: 0;
+    height: 12px;
+    /* width: 50px; */
+    border-bottom: 5px solid #2c3e50;
+    background: linear-gradient(325deg,
+    red, green, blue, yellow);
+}
+
+
+nav {
+    
+    position: relative;
+    font-size: 35px;
+    margin-top: 70px;
+    cursor: pointer;
+    letter-spacing: 15px;
+    transition:  ease 1s ;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
