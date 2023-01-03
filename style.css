@@ -1,14 +1,8 @@
 *{
     margin: 0%;
     padding: 0%;
-
     box-sizing: border-box;
-    
-  
-
 }
-
-
 body{ 
     position: relative;
     background: #BBD2C5;  /* fallback for old browsers */
@@ -16,12 +10,8 @@ body{
     background: linear-gradient(to left, #292E49, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
-    
-   
+    overflow: hidden;  
 }
-
-
 .glass {
     position: relative;
     top: 50%;
@@ -195,40 +185,3 @@ nav {
   
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
